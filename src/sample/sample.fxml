@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="532.0" prefWidth="368.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <Button fx:id="myButton" layoutX="119.0" layoutY="375.0" mnemonicParsing="false" onAction="#guess" prefHeight="49.0" prefWidth="130.0" text="Угадать">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Button>
+      <Label layoutX="110.0" layoutY="201.0" prefHeight="40.0" prefWidth="130.0" text="Введите число:" />
+      <TextField fx:id="numberInputField" layoutX="110.0" layoutY="241.0" onAction="#guess" />
+      <Label fx:id="messageToUser" alignment="CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="60.0" prefHeight="100.0" prefWidth="346.0" text="Угадайте число" textFill="#0099ff">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
